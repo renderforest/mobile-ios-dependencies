@@ -13,11 +13,11 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Alamofire",
-            path: "Alamofire/Alamofire-5.6.2.xcframework"
+            path: "Alamofire/Alamofire.xcframework"
         ),
         .binaryTarget(
             name: "Nuke",
-            path: "Nuke/Nuke-10.7.1.xcframework"
+            path: "Nuke/Nuke.xcframework"
         )
     ]
 )
