@@ -1,0 +1,17 @@
+name: Scipioforest
+
+deploymentTarget:
+  iOS: "13.0"
+
+cache:
+  local:
+    path: .
+
+# packages:
+#   - name: SliderKit
+#     url: https://github.com/renderforest/SliderKit
+#     from: 0.0.1
+
+pods:
+  - name: Alamofire
+  - name: Nuke
